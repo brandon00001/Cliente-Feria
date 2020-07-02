@@ -1,0 +1,64 @@
+body{
+	font-family: Helvetica;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+.login{
+	margin: auto;
+	margin-top: 10%;
+	width: 40%;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #333;
+	border-width: 3px;
+	background-color: #fff;
+}
+label{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	display: inline-block;
+	width: 30%;
+}
+input{
+	display: inline-block;
+}
+span,
+ul{
+	display: none;
+}
+.header{
+	background-color: #000;
+	margin: 0;
+	color: #fff;
+	padding: 20px;
+}
+h1{
+	font-family: 'MuseoModerno', cursive;
+	font-size: 3em;
+	margin: 0;
+}
+.login-title{
+	background-color: #333;
+	color: #fff;
+	font-family: 'MuseoModerno', cursive;
+	font-weight: 1.5em;
+	margin: 0;
+	padding: 10px 20px;
+}
+form{
+	padding: 20px;
+}
+.btn{
+	font-family: 'Roboto', sans-serif;
+	background-color: #333;
+	color: #fff;
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 2px;
+	padding: 10px;
+	cursor: pointer;
+	font-weight: bold;
+}
+.btn:hover{
+	transform: scale(1.1);
+}
